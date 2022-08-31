@@ -6,24 +6,24 @@ Creare una funzione per capire se la parola inserita è palindroma
 */
 
 
-/*
+
 const userWord = prompt('Inserisci una parola');
-let newWord = "";
+let reverseWord = ""; 
 
-for ( i = 0;  i < word.length; i++){
-    newWord += word[i]
+// da qui calcolo reverseWord
+
+for (let i = userWord.length -1; i >= 0; i--){
+    reverseWord += userWord[i];
 }
 
-for ( i = userWord.length -1; i >= 0; i --){
-    if(userWord === word){
-        console.log('La parola è palindroma')
-    } else {
-        console.log('La parola non è palindroma')
-    }
+console.log('userWord', userWord);
+console.log('reverseWord', reverseWord);
 
-}
-
-*/
+if (reverseWord === userWord){
+    console.log('La parola è palindroma')
+} else {
+    console.log('La parola non è palindroma')
+} 
 
 /*
 ESERCIZIO 2
@@ -35,7 +35,7 @@ Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 Dichiariamo chi ha vinto.
 */
 
-
+/*
 const playerOddOrEven = prompt('Scegliere pari o dispari');
 console.log('Tipo di numero giocatore:', playerOddOrEven);
 
@@ -74,3 +74,4 @@ if(oddOrEven===playerOddOrEven ){
     console.log('Vince il pc')
 }
 
+*/
