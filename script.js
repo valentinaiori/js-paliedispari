@@ -35,7 +35,7 @@ Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 Dichiariamo chi ha vinto.
 */
 
-/*
+
 const playerOddOrEven = prompt('Scegliere pari o dispari');
 console.log('Tipo di numero giocatore:', playerOddOrEven);
 
@@ -74,4 +74,3 @@ if(oddOrEven===playerOddOrEven ){
     console.log('Vince il pc')
 }
 
-*/
